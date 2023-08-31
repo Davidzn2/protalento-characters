@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import Header from '../Layouts/Header'
 function Verduras() {
     const verduras = ['Zanahoria', 'Papa', 'Morron', 'Brocoli']
     return (
@@ -7,7 +7,7 @@ function Verduras() {
             <Header name="Verduras" />
             <h2>Estas son mis verduras favoritas</h2>
             {
-                verduras.map((verdura)=>{
+                verduras.map((verdura) => {
                     return <p>{verdura}</p>
                 })
             }

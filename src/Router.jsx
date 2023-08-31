@@ -4,10 +4,11 @@ import {
     Routes,
     Route
 } from 'react-router-dom'
-import Frutas from './Components/Frutas'
-import Verduras from './Components/Verduras'
-import Home from './Components/Home'
-import Character from './Components/Character'
+
+import Frutas from './Pages/Frutas'
+import Verduras from './Pages/Verduras'
+import Home from './Pages/Home'
+import Character from './Pages/Character'
 
 function MyRoutes() {
     return (
